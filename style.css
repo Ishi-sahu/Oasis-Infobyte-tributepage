@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color:#cccccc;
+    text-align: center;
+}
+
+img{
+    height:50rem;
+    width: 70rem;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    
+}
+h2{
+   animation:change 5s ease-in-out 0s normal;
+   animation-iteration-count: 2;
+    color:black;
+    border-radius: 15px;
+    background-color: #cccccc;
+}
+@keyframes change{
+from{
+    background-color: black;
+}
+to{
+    background-color: #cccccc;
+}
+}
